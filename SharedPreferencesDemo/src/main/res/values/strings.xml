@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SharedPreferencesDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="stu_name">姓名:</string>
+    <string name="stu_age">年龄:</string>
+    <string name="stu_height">身高:</string>
+</resources>

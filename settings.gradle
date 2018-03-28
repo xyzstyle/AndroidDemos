@@ -1,0 +1,1 @@
+include ':app', ':ActivityLifeCycleDemo', ':SharedPreferencesDemo', ':TabLayoutDemo1', ':TabLayoutDemo2', ':TabLayoutDemo3', ':ViewPagerDemo1', ':ViewPagerDemo2', ':FragmentDemo1', ':FragmentDemo2'

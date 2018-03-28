@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FragmentDemo1</string>
+    <string name="chang">替换Fragment</string>
+    <string name="jump">跳转到新Fragment</string>
+</resources>
