@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidDemos.iml" filepath="$PROJECT_DIR$/AndroidDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/FragmentDemo1/fragmentdemo1.iml" filepath="$PROJECT_DIR$/FragmentDemo1/fragmentdemo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/FragmentDemo2/FragmentDemo2.iml" filepath="$PROJECT_DIR$/FragmentDemo2/FragmentDemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FragmentDemo3/FragmentDemo3.iml" filepath="$PROJECT_DIR$/FragmentDemo3/FragmentDemo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FragmentDemo4/FragmentDemo4.iml" filepath="$PROJECT_DIR$/FragmentDemo4/FragmentDemo4.iml" />
       <module fileurl="file://$PROJECT_DIR$/SharedPreferencesDemo/SharedPreferencesDemo.iml" filepath="$PROJECT_DIR$/SharedPreferencesDemo/SharedPreferencesDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/TabLayoutDemo1/TabLayoutDemo1.iml" filepath="$PROJECT_DIR$/TabLayoutDemo1/TabLayoutDemo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/TabLayoutDemo2/TabLayoutDemo2.iml" filepath="$PROJECT_DIR$/TabLayoutDemo2/TabLayoutDemo2.iml" />
