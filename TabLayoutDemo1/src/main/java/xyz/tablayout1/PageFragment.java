@@ -24,8 +24,12 @@ public class PageFragment extends Fragment {
         args.putInt(ARG_PAGE, page);
         PageFragment pageFragment = new PageFragment();
         pageFragment.setArguments(args);
+
         return pageFragment;
+
     }
+
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

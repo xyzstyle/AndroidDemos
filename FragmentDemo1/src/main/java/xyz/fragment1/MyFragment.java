@@ -17,7 +17,7 @@ import android.widget.TextView;
 
 public class MyFragment extends Fragment {
 
-    private static final String TAG = "MyFragment";
+    private static final String TAG = "xyz:MyFragment";
     private String mFragmentName = "no argument Fragment";
 
     public static Fragment NewInstance(String name) {
@@ -28,6 +28,11 @@ public class MyFragment extends Fragment {
         fragment.setArguments(bundle);
         return fragment;
     }
+
+
+
+
+
 
 
     @Override

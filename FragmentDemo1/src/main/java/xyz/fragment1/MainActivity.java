@@ -11,14 +11,16 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TAG = "AppCompatActivity";
+    private static final String TAG = "xyz:AppCompatActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         Log.i(TAG, "onCreate: ");
         super.onCreate(savedInstanceState);
+        Log.d(TAG, "onCreate: before contContentView");
         setContentView(R.layout.activity_main);
+        Log.d(TAG, "onCreate: after contContentView");
         if (savedInstanceState == null) {
             Fragment fragment = MyFragment.NewInstance("fragment1");
             Log.i(TAG, "onCreate: begin to transaction");

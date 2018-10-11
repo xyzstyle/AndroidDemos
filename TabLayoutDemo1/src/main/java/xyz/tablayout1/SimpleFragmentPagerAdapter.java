@@ -6,6 +6,7 @@ package xyz.tablayout1;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -29,7 +30,11 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
         this.context = context;
         pages = new PageFragment[3];
         for(int i=0;i<3;i++) {
-            pages[i]=PageFragment.newInstance(i + 1);
+            Bundle args = new Bundle();
+            args.putInt("page", i+1);
+            PageFragment pageFragment = PageFragment.newInstance(i);
+            pageFragment.setArguments(args);
+            pages[i]=pageFragment;
         }
     }
 
