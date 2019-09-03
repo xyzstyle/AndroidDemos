@@ -22,6 +22,7 @@ public class MyFragment extends Fragment {
 
     public static Fragment NewInstance(String name) {
 
+        Log.d(TAG, "NewInstance");
         Fragment fragment = new MyFragment();
         Bundle bundle = new Bundle();
         bundle.putString("name", name);

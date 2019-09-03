@@ -1,0 +1,105 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="3dip"
+            android:text="姓名" />
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="3dip"
+            android:text="电话" />
+
+        <TextView
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:padding="3dip"
+            android:text="学校" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="3dip"
+            android:text="郑向阳" />
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="3dip"
+            android:text="13888888888" />
+
+        <TextView
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:padding="3dip"
+            android:text="温州大学" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="3dip"
+            android:text="张龙" />
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="3dip"
+            android:text="13888888888" />
+
+        <TextView
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:padding="3dip"
+            android:text="麻省理工学院" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="3dip"
+            android:text="徐滔" />
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="3dip"
+            android:text="13888888888" />
+
+        <TextView
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:padding="3dip"
+            android:text="温州大学城市學院" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+</TableLayout>
